@@ -192,6 +192,7 @@ public class GameUnitTests {
         entityManager.persist(teamA);
         entityManager.flush();
 
+//        created team 
 //        created team B
         Team teamB = new Team();
         teamB.setTeamName(TEAM_B_NAME);
